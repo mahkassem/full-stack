@@ -40,3 +40,59 @@ This project is a simple art gallery website that allows users to view and purch
   - Update status of an order
 - Customers
   - List all customers
+
+## Specifications
+
+### Data Model
+- Product
+  - Name
+  - Description
+  - Price
+  - Stock
+  - Image
+  - Category
+  - Status
+<br>
+- Order
+  - Order number
+  - Customer name
+  - Customer email
+  - Customer phone
+  - Customer address
+  - Order status
+  - Order date
+  - Order items
+    - Product name
+    - Product price
+    - Product quantity
+    - Product subtotal
+  - Order total
+<br>
+- Customer
+  - Name
+  - Email
+  - Phone
+  - Address
+
+### Business Logic
+
+- Admin Panel
+  - Only admin can access
+  - Only admin can create, update, delete products
+  - Only admin can update order status
+  - Only admin can view customer list
+<br>
+- Website
+  - Only logged in user can checkout
+  - Only logged in user can view order history
+  - Only logged in user can view cart
+  - Only logged in user can add product to cart
+  - Only logged in user can remove product from cart
+  - Only logged in user can update product quantity in cart
+  - Only logged in user can view product details
+  - Only logged in user can search product
+  - Only logged in user can view product list
+  - Only logged in user can view profile
+<br>
+- Backend
+  - Database must be migrated and seeded with sample data
