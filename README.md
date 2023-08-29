@@ -95,10 +95,10 @@ This project is a simple art gallery website that allows users to view and purch
 - Only logged in user can add product to cart
 - Only logged in user can remove product from cart
 - Only logged in user can update product quantity in cart
-- Only logged in user can view product details
-- Only logged in user can search product
-- Only logged in user can view product list
 - Only logged in user can view profile
+- user can view product details
+- user can search product
+- user can view product list
 
 #### Backend
 
